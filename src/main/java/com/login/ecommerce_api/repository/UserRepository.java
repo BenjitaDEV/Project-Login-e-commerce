@@ -10,6 +10,7 @@ import com.login.ecommerce_api.model.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
+    //CRUD
     //SELECT * FROM users WHERE username
     //sin escribir SQL directamente
     //Optional<user> sirve para poder ver si existe o no el user
